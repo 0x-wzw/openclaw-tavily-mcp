@@ -1,0 +1,28 @@
+{
+  "name": "tavily-mcp-skill",
+  "version": "0.1.0",
+  "description": "Web search via Tavily MCP skill for OpenClaw, Claude Code, and compatible AI agents",
+  "author": "January the Swarm Leader",
+  "license": "MIT",
+  "keywords": ["tavily", "mcp", "web-search", "openclaw", "ai"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/tavily-mcp-skill.git"
+  },
+  "scripts": {
+    "setup": "npm install && ./scripts/setup.sh",
+    "test": "./scripts/test.sh",
+    "lint": "cat SKILL.md | head -50"
+  },
+  "files": [
+    "*.md",
+    "scripts/*.sh",
+    "references/*.md",
+    "assets/*.json"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
